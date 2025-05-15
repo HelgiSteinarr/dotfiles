@@ -44,6 +44,7 @@ packages_pacman=(
     "vivaldi"
     "zen-browser-bin"
     "starship"
+    "ttf-jetbrainsmono-nerd"
 )
 
 packages_yay=(
