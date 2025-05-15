@@ -24,9 +24,6 @@ fi
 
 path+=('/home/helgi/.local/bin')
 
-# Oh my posh
-eval "$(oh-my-posh init zsh)"
-
 alias l="ls"
 alias ls="lsd"
 alias la="lsd -a"
@@ -127,3 +124,8 @@ search() {
         code "$file" +"$line"
     fi
 }
+
+
+
+# Starship
+eval "$(starship init zsh)"

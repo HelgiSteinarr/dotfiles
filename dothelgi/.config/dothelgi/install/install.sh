@@ -1,0 +1,55 @@
+#!/bin/bash
+
+packages_pacman=(
+    "yay"
+    "wget"
+    "unzip"
+    "git"
+    "hyprland"
+    "waybar"
+    "rofi-wayland"
+    "alacritty"
+    "dunst"
+    "thunar"
+    "xdg-desktop-portal-hyprland"
+    "qt5-wayland"
+    "qt6-wayland"
+    "hyprpaper"
+    "hyprlock"
+    "hypridle"
+    "hyprshot"
+    "firefox"
+    "ttf-font-awesome"
+    "vim"
+    "fastfetch"
+    "ttf-fira-sans" 
+    "ttf-fira-code" 
+    "ttf-firacode-nerd"
+    "fuse2"
+    "gtk4"
+    "libadwaita"
+    "jq"
+    "python-gobject"
+    "xdotool"
+    "brightnessctl"
+    "networkmanager"
+    "wireplumber"
+    "nvim"
+    "pavucontrol"
+    "tlpui"
+    "zsh"
+    "s-tui"
+    "spotify"
+    "rustdesk"
+    "vivaldi"
+    "zen-browser-bin"
+    "starship"
+)
+
+packages_yay=(
+    "wlogout"
+    "clipse"
+)
+
+sudo pacman -S $packages_pacman --noconfirm
+yay -S $packages_yay --noconfirm
