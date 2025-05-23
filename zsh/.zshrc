@@ -19,7 +19,9 @@ if [[ $(tty) == *"pts"* ]]; then
     fastfetch
 else
     echo
-    echo "Start Hyprland with command Hyprland"
+    if [[ ${uname} == "Linux" ]]; then
+        echo "Start Hyprland with command Hyprland"
+    fi
 fi
 
 path+=('/home/helgi/.local/bin')

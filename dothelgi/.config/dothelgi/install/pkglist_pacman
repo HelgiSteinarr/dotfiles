@@ -2,6 +2,7 @@ yay
 wget
 unzip
 git
+lsd
 hyprland
 waybar
 rofi-wayland
@@ -19,7 +20,6 @@ ttf-font-awesome
 vim
 fastfetch
 ttf-fira-sans
-nerd-fonts
 fuse2
 gtk4
 libadwaita
