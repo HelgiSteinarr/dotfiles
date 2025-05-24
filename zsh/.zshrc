@@ -33,7 +33,10 @@ alias ll="lsd -l"
 alias lla="ll -a"
 
 alias pacman="sudo pacman"
+
 alias mommy="git"
+alias please="sudo"
+alias pls="please"
 
 alias findstr="search"
 alias fs="search"
